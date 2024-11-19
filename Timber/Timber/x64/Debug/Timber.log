@@ -1,0 +1,2 @@
+﻿  Timber.cpp
+C:\Users\PC\Documents\cole\Timber\Timber\Timber.cpp(4,10): error C1083: No se puede abrir el archivo incluir: 'SFML/Graphics.hpp': No such file or directory

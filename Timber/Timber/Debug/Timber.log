@@ -1,0 +1,11 @@
+﻿  Timber.cpp
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(75,50): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(280,34): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(307,34): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(348,13): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(378,44): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(379,61): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(393,49): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(394,66): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Timber\Timber\Timber.cpp(411,17): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  Timber.vcxproj -> E:\AluCiclesGS1\Pau\PROGR\Timber\Debug\Timber.exe
