@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\colelaSALLE\\PROGR\\Timber\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\CPP\\Timber\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5D18E36-77AC-4F5C-8F1A-62D9F9C9DC97}|Timber\\Timber.vcxproj|D:\\colelaSALLE\\PROGR\\Timber\\Timber\\Timber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D5D18E36-77AC-4F5C-8F1A-62D9F9C9DC97}|Timber\\Timber.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Timber\\Timber\\Timber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D5D18E36-77AC-4F5C-8F1A-62D9F9C9DC97}|Timber\\Timber.vcxproj|solutionrelative:Timber\\Timber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Timber.cpp",
-              "DocumentMoniker": "D:\\colelaSALLE\\PROGR\\Timber\\Timber\\Timber.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Timber\\Timber\\Timber.cpp",
               "RelativeDocumentMoniker": "Timber\\Timber.cpp",
-              "ToolTip": "D:\\colelaSALLE\\PROGR\\Timber\\Timber\\Timber.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Timber\\Timber\\Timber.cpp",
               "RelativeToolTip": "Timber\\Timber.cpp",
-              "ViewState": "AgIAAA8CAAAAAAAAAAAAwDoCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANoBAAAAAAAAAAAAAOkBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-14T20:02:34.11Z",
               "EditorCaption": ""
