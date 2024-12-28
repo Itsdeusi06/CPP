@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\blocs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\pilota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\pilota.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\blocs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\Fronto_game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\Fronto_game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\barra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\barra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\Fronto_game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\Fronto_game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\blocs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\blocs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\pilota.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF31AE23-F009-46C5-83A6-FBACC2E8830A}|Fronto_game\\Fronto_game.vcxproj|solutionrelative:Fronto_game\\pilota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Fronto_game.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\Fronto_game.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\Fronto_game.cpp",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\Fronto_game.cpp",
               "RelativeToolTip": "Fronto_game\\Fronto_game.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-21T20:49:55.679Z",
               "IsPinned": true,
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "text.h",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.h",
               "RelativeDocumentMoniker": "Fronto_game\\text.h",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.h",
               "RelativeToolTip": "Fronto_game\\text.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-22T11:04:28.905Z",
               "EditorCaption": ""
@@ -79,72 +79,72 @@
               "RelativeDocumentMoniker": "Fronto_game\\pilota.cpp",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.cpp",
               "RelativeToolTip": "Fronto_game\\pilota.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-17T07:49:42.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "text.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\text.cpp",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\text.cpp",
               "RelativeToolTip": "Fronto_game\\text.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCMAAAB8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-22T10:55:21.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "pilota.h",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.h",
               "RelativeDocumentMoniker": "Fronto_game\\pilota.h",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\pilota.h",
               "RelativeToolTip": "Fronto_game\\pilota.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-21T20:51:50.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "blocs.h",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.h",
               "RelativeDocumentMoniker": "Fronto_game\\blocs.h",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.h",
               "RelativeToolTip": "Fronto_game\\blocs.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-21T22:03:42.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "blocs.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\blocs.cpp",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\blocs.cpp",
               "RelativeToolTip": "Fronto_game\\blocs.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAGEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-21T20:50:04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "barra.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\barra.cpp",
               "RelativeDocumentMoniker": "Fronto_game\\barra.cpp",
               "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Fronto_game\\Fronto_game\\barra.cpp",
               "RelativeToolTip": "Fronto_game\\barra.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-21T20:50:02.957Z",
               "EditorCaption": ""

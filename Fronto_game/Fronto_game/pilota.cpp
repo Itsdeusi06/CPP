@@ -49,15 +49,15 @@ void pilota(sf::RenderWindow& finestra, sf::Vector2f& posicio, float radi, float
         posicio.y - radi <= posicioBarra.y + altBarra &&       // No sobrepasa el borde inferior
         posicio.x + radi >= posicioBarra.x &&                  // Toca el borde izquierdo
         posicio.x - radi <= posicioBarra.x + longitutBarra) {  // No sobrepasa el borde derecho
-        // Ajustar posición para evitar superposición
-        posicio.y = posicioBarra.y - radi;
+        posicio.y = posicioBarra.y - radi;                     // Ajustar posicio per evitar superposicio
 
-        // Invertir la dirección Y para que suba
-        velocitatY = -abs(velocitatY);  // Asegurar que siempre vaya hacia arriba
 
-        // Calcular efecto angular dependiendo de la posición de impacto
+        // Invertir la direcio Y per que puji
+        velocitatY = -abs(velocitatY);  // Asegurar que semplre anira amunt
+
+        // Calcul per moures en una direcio depenen del angle de rebot
         float impact = (posicio.x - (posicioBarra.x + longitutBarra / 2)) / (longitutBarra / 2);
-        velocitatX = impact * abs(velocitatY);  // Cambiar dirección en X basado en el impacto
+        velocitatX = impact * abs(velocitatY);  // Cambiar la direccio en X basat en el impacto
     }
 
 
