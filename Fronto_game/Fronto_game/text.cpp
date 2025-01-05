@@ -26,13 +26,6 @@ void score(int& scoretotal, sf::RenderWindow& ventana) {
 	ventana.draw(scoreText);
 }
 
-#include <SFML/Graphics.hpp>
-#include <sstream>
-#include "text.h"
-#include "blocs.h"
-
-using namespace sf;
-
 // Funcio per mostrar el game over
 void GameOver(sf::RenderWindow& ventana, bool& gameOver, sf::Vector2f& posicioPilota, float& velocitatX, float& velocitatY, std::vector<std::vector<Bloc>>& blocs, int& scoretotal, const int max_X, const int max_Y) {
 
