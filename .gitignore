@@ -2,7 +2,7 @@
 .vs/
 .vscode/
 *.user
-*.userosscache
+*.userosscache 
 *.suo
 *.sdf
 *.dbmdl
