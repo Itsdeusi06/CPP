@@ -10,8 +10,33 @@ C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\Fronto_game.cpp(84,96): warnin
 C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\Fronto_game.cpp(84,89): warning C4244: 'argumento': conversión de 'const float' a 'const int'; posible pérdida de datos
 C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\Fronto_game.cpp(91,87): warning C4244: 'argumento': conversión de 'const float' a 'const int'; posible pérdida de datos
 C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\Fronto_game.cpp(91,80): warning C4244: 'argumento': conversión de 'const float' a 'const int'; posible pérdida de datos
+  barra.cpp
   blocs.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
 C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\blocs.cpp(13,16): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  pilota.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+  text.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,55): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,55): warning C4244:         with
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,55): warning C4244:         [
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,55): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,55): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,44): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,44): warning C4244:         with
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,44): warning C4244:         [
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,44): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(67,44): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,55): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,55): warning C4244:         with
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,55): warning C4244:         [
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,55): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,55): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,44): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,44): warning C4244:         with
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,44): warning C4244:         [
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,44): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Fronto_game\Fronto_game\text.cpp(111,44): warning C4244:         ]
   Generando código...
   Fronto_game.vcxproj -> C:\Users\PC\Documents\CPP\Fronto_game\Debug\Fronto_game.exe
