@@ -1,90 +1,148 @@
-#include "Farm.h"
+#include "Farm.h"   
 
 
-
+/// <summary>
+/// Constructor for Farm that reserves space for Critters.
+/// Note: This does NOT create Critters, it only reserves space in the vector.
+/// </summary>
+/// <param name="space">Number of slots to reserve for Critters.</param>
 Farm::Farm(int space) {
 	m_Critters.reserve(space);
 }
 
+/// <summary>
+/// Destructor of Farm, which deletes all Critters in the vector.
+/// </summary>
 Farm::~Farm() {
     for (Critter* critter : m_Critters) {
-            delete critter; // Delete each dynamically allocated Critter
-        }
-        cout << "All critters have been deleted." << endl;
+        delete critter; // Free allocated memory
+    }
+    m_Critters.clear(); // Ensure vector is empty after deletion
+    cout << "All critters have been deleted." << endl;
 }
 
-void Farm::menuOption(const Critter& aCritter, int& numCritters) {
 
+/// <summary>
+/// Funtion for the menu Option of Exit, change, create or delete critter
+/// </summary>
+/// <param name="numCritters">This saves the total number of Critters are, came from mascota.cpp</param>
+/// <param name="choice">This saves the choice of the critter is beeing used now, cames form mascota.cpp</param>
+void Farm::menuOption(int& numCritters, int choice) {
+
+    // Users menu option
     int entrada = 0;
-    // List of default names (used in getDefaultNames function)
-    string names[numNames];      // Array for default 
+    // Array for default
+    string names[numNames];       
     // Populate the names array
     getDefaultNames(names);
 
     cout << "\n\nChoose an option:";
-    cout << "\n\t0 - EXIT\n\t1 - Create critter\n\n";
+    cout << "\n\t0 - EXIT/Change Critter\n\t1 - Create critter\n\t2 - Delete critter\n\n";
 
+    // This funcion check if the Input of entrada is between 0 n 2
     entrada = getValidatedInput(0, 2);
 
+    // switch to do an option or an other
     switch (entrada) {
-    case 0:
+    case 0: // if its 0 will go to start, where you can chose a critter or leve with the number specified
         break;
-    case 1:
+    case 1: // if its 1 will go to the funcion that create new critters
         CreateCritters(names, numCritters);
         break;
-    default:
+    case 2: // if its 2 will go to the function that delete the actual critter
+        delete_element(choice);
+        numCritters--; // The number of critters must decrease 1 (i should put this in the funcion so i can called from the main with out makeing the decrease)
+        break;
+    default:    // hard to get this option bc entrada is allready beeing checked
         cout << "Invalid option. Try again.\n";
     }
 
 }
 
+/// <summary>
+/// This funcion will put the new critters crated on the vector 
+/// </summary>
+/// <param name="aCritter">this pass the point of the critter,ro later put it in the vector, cames from the create critter funciton</param>
 void Farm::Add(Critter* aCritter) {
 	m_Critters.push_back(aCritter);
 }
 
+/// <summary>
+/// Deletes a Critter at a given index.
+/// </summary>
+/// <param name="choice">Index of the Critter to delete.</param>
+void Farm::delete_element(int choice) {
+    if (choice < 0 || choice >= m_Critters.size()) {
+        cout << "Invalid choice. No critter deleted." << endl;
+        return;
+    }
+
+    delete m_Critters[choice]; // Free allocated memory
+    m_Critters.erase(m_Critters.begin() + choice); // Remove from vector
+}
 
 
-
-
+/// <summary>
+/// Displays all Critters in the Farm with their hunger and boredom levels.
+/// </summary>
 void Farm::RollCall() const {
-    int i = 1;
-
-    // Verifica que haya critters para mostrar
     if (m_Critters.empty()) {
         cout << "No critters available." << endl;
         return;
     }
 
-    for (std::vector<Critter*>::const_iterator iter = m_Critters.begin(); iter != m_Critters.end(); ++iter) {
-        cout << "\t" << i << " - " << **iter << " here." << endl;  // Use overloaded << operator
-        i++;
+    int i = 1;
+    for (const Critter* critter : m_Critters) {
+        cout << "\t" << i++ << " - " << *critter << " here." << endl; // use overloaded << funciton
     }
 }
 
-
+/// <summary>
+/// Creates new Critters with random hunger and boredom levels.
+/// </summary>
+/// <param name="names">Array of available names.</param>
+/// <param name="numCritters">Reference to the total Critter count.</param>
 void Farm::CreateCritters(const std::string names[], int& numCritters) {
-    int newCritters = 0; // Número de critters a crear en esta llamada
-    cout << "newcritters i num Critters funcio crate critters " << newCritters << " " << numCritters;
+    int newCritters = 0;
+
     cout << "How many critters would you like to create? ";
     cin >> newCritters;
 
-    // Añadir nuevos critters
-    for (int i = 0; i < newCritters; ++i) {
-        int randomIndex = rand() % 100; // Índice aleatorio para los nombres
-        Critter* newCritter = new Critter(names[randomIndex], rand() % 6, rand() % 6);  // Dynamically allocate a new Critter 
-        Add(newCritter);  // Add the new critter to the farm  
+    // Input validation
+    if (cin.fail() || newCritters < 1) {
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cout << "Invalid input. No critters created.\n";
+        return;
     }
 
-    // Incrementar el número total de critters creados
+    for (int i = 0; i < newCritters; ++i) {
+        int randomIndex = rand() % 100;
+        Critter* newCritter = new Critter(names[randomIndex], rand() % 6, rand() % 6);
+        Add(newCritter);
+    }
+
     numCritters += newCritters;
 }
 
-Critter* Farm::getCritterAtIndex(int index) const {
-    if (index >= 0 && index < m_Critters.size()) {
-        return m_Critters[index];  // Return the critter pointer at the given index
+
+/// <summary>
+/// function to get critter choice, with pointer form
+/// </summary>
+/// <param name="choice">this is the number of the actual critter, came from mascota.cpp</param>
+/// <returns>return the critter pointer of the choice</returns>
+Critter* Farm::getCritterAtChoice(int choice) const {
+    // if the choice is between 0 and the number of the vector
+    if (choice >= 0 && choice < m_Critters.size()) {
+        return m_Critters[choice];  // Return the critter pointer at the given choice
     }
-    return nullptr;  // Return nullptr if the index is invalid
+    return nullptr;  // Return nullptr if the index is invalid 
 }
+
+/// <summary>
+/// function to get the max actual number of the vector farm
+/// </summary>
+/// <returns>return the size of the vector</returns>
 int Farm::getNumCritters() const {
     return m_Critters.size();  // Return the number of critters in the farm
 }

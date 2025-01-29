@@ -1,12 +1,21 @@
 ﻿#include "Critter.h"
 
-
-// Constructor that sets both hunger and name
+/// <summary>
+/// Constructor that initializes a Critter object with a name, hunger level, boredom level, and time interval for status updates.
+/// It also displays a message indicating the Critter's birth.
+/// </summary>
+/// <param name="name">The name of the critter.</param>
+/// <param name="hunger">Initial hunger level (0-10).</param>
+/// <param name="boredom">Initial boredom level (0-10).</param>
+/// <param name="timePass">Time interval before hunger and boredom increase.</param>
 Critter::Critter(const string& name, int hunger, int boredom, int timePass) : m_Name(name), m_Hunger(hunger), m_Boredom(boredom), m_time(timePass) {
     cout << name << " with hunger level " << hunger << " and boredom level of " << boredom << " has been born!\n";
     cout << Critter_figure(0); 
 }
 
+/// <summary>
+/// Destructor for Critter. If hunger and boredom reach 10, the critter "dies".
+/// </summary>
 Critter::~Critter() {
     if (m_Hunger >= 10 && m_Boredom >= 10) {
         cout << "Your critter named " << m_Name << ". Died.\n";
@@ -15,7 +24,9 @@ Critter::~Critter() {
 
 }
 
-// OptionsMenu implementation
+/// <summary>
+/// Displays the options menu where the user can interact with the critter.
+/// </summary>
 void Critter::OptionsMenu() {
     bool quit = false;
     int entrada = 0;
@@ -25,7 +36,7 @@ void Critter::OptionsMenu() {
         Greet();
 
         cout << "\n\nChoose an option:";
-        cout << "\n\t0 - EXIT/Create/Delete critter\n\t1 - Change Name\n\t2 - Listen to your critter\n\t3 - Feed your critter";
+        cout << "\n\t0 - Exit/Change Critter/Create/Delete critter\n\t1 - Change Name\n\t2 - Listen to your critter\n\t3 - Feed your critter";
         cout << "\n\t4 - Play with your critter\n\t5 - Tell a story\n\t6 - View stats\n\n";
 
         entrada = getValidatedInput(0, 6);
@@ -58,12 +69,17 @@ void Critter::OptionsMenu() {
     }
 }
 
-// Getter for hunger
+/// <summary>
+/// Retrieves the critter's hunger level.
+/// </summary>
+/// <returns>Returns an integer representing the hunger level.</returns>
 int Critter::GetHunger() const {
     return m_Hunger;
 }
 
-// Setter for hunger
+/// <summary>
+/// Feeds the critter by reducing hunger based on selected food.
+/// </summary>
 void Critter::SetHunger() {
     
     if (m_Hunger > 0)
@@ -102,29 +118,42 @@ void Critter::SetHunger() {
     
 }
 
-// Getter for name
+/// <summary>
+/// Retrieves the name of the critter.
+/// </summary>
+/// <returns>Returns the critter's name as a string.</returns>
 string Critter::GetName() const {
     return m_Name;
 }
 
-// Setter for name
+/// <summary>
+/// Allows the user to change the name of the critter.
+/// </summary>
 void Critter::SetName() {
     cout << "How do you want to name me?\n";
     cin.ignore();
     getline(cin, m_Name);
 }
 
-// Getter for boredom
+/// <summary>
+/// Return the boredom of the critter
+/// </summary>
+/// <returns>Returns the name of the boredom</returns>
 int Critter::GetBoredom() const {
     return m_Boredom;
 }
 
-// Setter for boredom
+/// <summary>
+/// allows modify the boredom
+/// </summary>
+/// <param name="boredom">modify the boredom</param>
 void Critter::SetBoredom(int boredom) {
     m_Boredom = boredom;
 }
 
-// Critter talks (a placeholder action)
+/// <summary>
+/// the critter talk depending of the hunger and the boredom
+/// </summary>
 void Critter::Talk() {
     string mood;
     int figura;
@@ -143,14 +172,16 @@ void Critter::Talk() {
         mood = "I'm happy!\n";
         figura = 1;
     }
-
+    // show the face the mood saved and call teh pass time 
     cout << Critter_figure(figura);
     cout << mood << "\n";
     passTime(m_time);
 }
 
 
-// Critter plays (a placeholder action)
+/// <summary>
+/// Plays with the critter to reduce boredom.
+/// </summary>
 void Critter::Play() {
     int boredom = m_Boredom - 1;// This make the boredom don't go up
     srand((int)time(0));
@@ -174,7 +205,12 @@ void Critter::Play() {
         cout << "Ok I have a number. Between 1 AND 20.\n\n";
         while (!guess)
         {   
-            cout << "Try to guess it.\n\n"<< numero;
+            cout << "Try to guess it.\n\n";
+            
+            /*HI THERE - Uncomment thsi to see the random number to test if it works :)
+            cout << numero;
+            */
+            
             // Loop for the correct option
             entrada = getValidatedInput(0, 20);
             if (numero == entrada)
@@ -197,6 +233,9 @@ void Critter::Play() {
     SetBoredom(boredom); // we call the function the last to subtract -1 to m_boredom
 }
 
+/// <summary>
+/// tell a story to the critter 
+/// </summary>
 void Critter::Story() {
     int entrada;
     string song1;
@@ -252,11 +291,17 @@ void Critter::Story() {
     passTime(m_time); 
 }
 
-// Greet the critter 
+/// <summary>
+/// critter says hi and his name
+/// </summary>
 void Critter::Greet() {
     cout << "Hi I'm a critter named " << m_Name << ". And you are my pet sitter.\n";
 }
 
+/// <summary>
+/// every time this function is called time is increased and if its 3 update the hunger and the boredeom 
+/// </summary>
+/// <param name="time">number to count the time passed while playing</param>
 void Critter::passTime(int time) {
     m_time++;
     if (m_time == 3)
@@ -277,6 +322,11 @@ void Critter::passTime(int time) {
     }
 }
 
+/// <summary>
+/// this saves faces of the critter in array
+/// </summary>
+/// <param name="figura">pass the number of the face he will have</param>
+/// <returns>the face will show</returns>
 string Critter::Critter_figure(int figura) {
     string cares[] = { 
     // cara normal Num 0
@@ -318,7 +368,10 @@ string Critter::Critter_figure(int figura) {
     return cares[figura];
 }
 
-// Function to return a list of 100 default names
+/// <summary>
+/// 100 names to set in the critters as teh default
+/// </summary>
+/// <param name="names">names is from the main to initialize in the mascota.cpp</param>
 void getDefaultNames(string names[]) {
     // Using a list to directly populate the names array
     string tempNames[] = {
@@ -340,7 +393,12 @@ void getDefaultNames(string names[]) {
     }
 }
 
-// Input validation function to avoid repetition
+/// <summary>
+/// this verify the input 
+/// </summary>
+/// <param name="min">this is the min number that can be</param>
+/// <param name="max">this is the max number that can be</param>
+/// <returns>returns input so its correct</returns>
 int getValidatedInput(int min, int max) {
     int input = 0;
     // Loop to validate the input is between min and max both are included
@@ -354,7 +412,10 @@ int getValidatedInput(int min, int max) {
     return input;
 }
 
-// Friend function definition
+/// <summary>
+/// Displays the critter's stats.
+/// </summary>
+/// <param name="aCritter">The Critter object to inspect.</param>
 void Peek(const Critter& aCritter) {
     cout << "Peeking into Critter details:\n";
     cout << "Name: " << aCritter.m_Name << endl;
@@ -362,7 +423,14 @@ void Peek(const Critter& aCritter) {
     cout << "Boredom: " << aCritter.m_Boredom << endl;
 }
 
-// Overload << to output critter details
+/// <summary>
+/// Overload of the << (stream insertion) operator for the Critter class.
+/// This allows a Critter object to be printed to an output stream (e.g., std::cout).
+/// The output includes the Critter's name, hunger level, and boredom level.
+/// </summary>
+/// <param name="out">The output stream to which the Critter's details will be sent.</param>
+/// <param name="critter">The Critter object whose details are being output.</param>
+/// <returns>The modified output stream.</returns>
 std::ostream& operator<<(std::ostream& out, const Critter& critter) {
     out << "Name: " << critter.m_Name << ", Hunger: " << critter.m_Hunger
         << ", Boredom: " << critter.m_Boredom;
