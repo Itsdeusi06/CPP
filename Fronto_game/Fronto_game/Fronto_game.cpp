@@ -14,7 +14,7 @@ int main()
 
     RenderWindow finestra(VideoMode(max_X, max_Y), "Fronto Game");
 
-    // Prepere the Background
+    // Preparar Background
     Texture textureBackground;
     textureBackground.loadFromFile("asets/fons.png");
     Sprite spriteBackground;
@@ -26,31 +26,29 @@ int main()
     Vector2f posicioBarra(max_X / 2, max_Y - 100);  // Posicio inicial de la barra
     float longitutBarra = max_X / 4;  // Longitut de la barra
     float altBarra = max_Y / 20;    // Altura de la barra
-    float velocitatBarra = 2.f;
+    float velocitatBarra = 2.f;     // Velocitat de la barra
 
     // Parametres dels blocs
     Vector2f posicioBlocs(max_X / 2, max_Y - 100);  // Posicio inicial dels blocs
-    // Configuración de los bloques 
-    float ampleBlocs = 80.0f;
-    float alturaBlocs = 40.0f;
-    float separacioBlocs = 10.0f;
-    float separacioDalt = 50.0f;
-    float SeparacioEsq = 50.0f;
-    std::vector<std::vector<Bloc>> blocs;
-    inicialitzarBlocs(blocs, ampleBlocs, alturaBlocs, separacioBlocs, separacioDalt, SeparacioEsq);
+    float ampleBlocs = 80.0f;           // Ample dels blocs
+    float alturaBlocs = 40.0f;          // Altura dels blocs
+    float separacioBlocs = 10.0f;       // Separacio dels blocs entre ells
+    float separacioDalt = 50.0f;        // Separacio del sostre
+    float SeparacioEsq = 50.0f;         // Separacio de la esquera
+    std::vector<std::vector<Bloc>> blocs;   // Forma (en vectors) blocs
+    inicialitzarBlocs(blocs, ampleBlocs, alturaBlocs, separacioBlocs, separacioDalt, SeparacioEsq); // Inicia els blocs amb les dades inicials
 
-    // Parametres de la pilota
+    // Parametres de la pilota  
     Vector2f posicioPilota(max_X / 2, max_Y - 150); // Posicio inicial de la pilota
-    float velocitatPilotaX = 1.f;
-    float velocitatPilotaY = 1.f;
-    float radiPilota = 10.f;
-    CircleShape pilotaForma;
+    float velocitatPilotaX = 1.f;       // Velocitat pilota de x
+    float velocitatPilotaY = 1.f;       // Velocitat pilota de y
+    float radiPilota = 10.f;            // Radi de la pilota
+    CircleShape pilotaForma;            // Forma de la pilota
 
-    // text 
-    int scoretotal = 0;
-    // Variable para saber si el juego ha terminado
+    // Text 
+    int scoretotal = 0;     // Inicar els punts a zero
+    // Variable per saber si a acabat el joc
     bool gameOver = false;
-
 
     // Bucle de dibuixar
     while (finestra.isOpen())
@@ -62,24 +60,34 @@ int main()
             if (evento.type == Event::Closed)
                 finestra.close();
         }
-
         
+        // Per fer proves per no tenir que guanyar tot el rato
+        //////////if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) { // Si es l'espai es premut tots els blocs se piran
+        //////////    for (auto& fila : blocs) {
+        //////////        for (auto& bloc : fila) {
+        //////////            bloc.active = false; // Desactivar tots els blocs
+        //////////        }
+        //////////    }
+        //////////}
 
         GameOver(finestra, gameOver, posicioPilota, velocitatPilotaX, velocitatPilotaY, blocs, scoretotal, max_X, max_Y);
-        if (gameOver) continue; // Pausar el juego mientras esté en Game Over
+        if (gameOver) continue; // Pausar el joc si esta en GameOver
+
+        victoriaMostrar(finestra, posicioPilota, velocitatPilotaX, velocitatPilotaY, blocs, scoretotal, max_X, max_Y);
+        if (!quedenBlocsActius(blocs)) continue;    // Pausar el joc si esta no hi han blocs
 
         finestra.clear();  // Netejar la finestra avans de dibuixar
 
-        finestra.draw(spriteBackground);
+        finestra.draw(spriteBackground);    // Dibujar el fons
 
-        // Actualizar y comprobar colisiones
+        // Actualizar y comprobar colisions de la pilota
         pilota(finestra, posicioPilota, radiPilota, velocitatPilotaX, velocitatPilotaY, max_X, max_Y, posicioBarra, blocs, altBarra, longitutBarra, gameOver);
 
-        // Comprobar colisiones con bloques
+        // Comprobar colisiones amb blocs i actualizar els punts
         score(scoretotal, finestra);
         comprovarColisioPilotaBlocs(posicioPilota, radiPilota, velocitatPilotaX, velocitatPilotaY, blocs, scoretotal);
 
-        // Dibujar elementos
+        // Dibujar barra i blocs
         barra(finestra, posicioBarra, longitutBarra, altBarra, velocitatBarra, max_X, max_Y);
         dibuixarBlocs(finestra, blocs);
 

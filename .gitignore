@@ -1,0 +1,22 @@
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.userosscache 
+*.suo
+*.sdf
+*.dbmdl
+
+# Build output directories
+bin/
+obj/
+
+# NuGet packages
+packages/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
