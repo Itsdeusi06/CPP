@@ -10,7 +10,7 @@ int main() {
 	return myGame.run();
 }
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
+// Depurar programa: F5 o menú Depurar > Iniciar depuración 
 
 // Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
 //   2. Use la ventana de Team Explorer para conectar con el control de código fuente

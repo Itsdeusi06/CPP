@@ -19,7 +19,7 @@ void Rocket::init(std::string textureName, sf::Vector2f position, float speed, s
     // Create Sprite and Attach the Texture
     m_sprite.setTexture(m_texture);
     m_sprite.setPosition(m_position);
-    m_sprite.setOrigin(m_texture.getSize().x / 2, m_texture.getSize().y / 2);
+    m_sprite.setOrigin(m_texture.getSize().x / 2, m_texture.getSize().y / 2); 
 
     // Get the size of the window
     sf::Vector2u windowSize = window.getSize();

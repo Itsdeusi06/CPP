@@ -16,7 +16,7 @@ private:
 	sf::Texture m_textureStand;
 	sf::Texture m_textureJump;
 	sf::Texture m_textureCrouch;
-	sf::Sprite m_sprite;
+	sf::Sprite m_sprite; 
 	sf::Vector2f m_position;
 	float animationTimer = 0.0f; // Time tracker
 	float switchTime = 0.5f; // Change sprite every 0.5 seconds (adjust as needed)

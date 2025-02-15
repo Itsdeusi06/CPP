@@ -19,7 +19,7 @@ Engine::~Engine() {
 
 // Load and run the game
 int Engine::run() {
-	sf::Clock clock;
+	sf::Clock clock; 
 	// call the funcion to know how many plyers are playing 1 - 2
 	numJugadors = seleccioJugadors();
 	// call this to iniciate the game

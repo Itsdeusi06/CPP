@@ -12,7 +12,7 @@ void Hero::init(std::string textureName, sf::Vector2f position, float mass, sf::
 	// Initialize basic attributes
 	m_position = position;
 	m_mass = mass;
-	m_grounded = false;
+	m_grounded = false; 
 
 	// Load textures for the hero in different states
 	m_textureStand.loadFromFile(textureName.c_str());

@@ -20,5 +20,5 @@ public:
     // Function to load the highest score
     int loadScore();
 };
-
+ 
 

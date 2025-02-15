@@ -20,5 +20,5 @@ int ScoreManager::loadScore() {
         file >> score;
         file.close();
     }
-    return score;
+    return score; 
 }

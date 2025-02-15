@@ -18,7 +18,7 @@ class Engine {
 		sf::Vector2f viewSize;
 		sf::VideoMode vm;
 		sf::RenderWindow window;
-		//variable to save the bg
+		//variable to save the bg 
 		//sky
 		sf::Texture skyTexture;
 		sf::Sprite skySprite;
