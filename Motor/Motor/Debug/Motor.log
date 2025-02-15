@@ -1,0 +1,93 @@
+﻿  Enemy.cpp
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,73): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,73): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,73): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,73): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,73): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,46): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,46): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,46): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,46): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Enemy.cpp(21,46): warning C4244:         ]
+  Engine.cpp
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(8,54): warning C4244: '=': conversión de 'unsigned int' a 'T'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(8,54): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(8,54): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(8,54): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(8,54): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(9,53): warning C4244: '=': conversión de 'unsigned int' a 'T'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(9,53): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(9,53): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(9,53): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(9,53): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,50): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,50): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,50): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,50): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,50): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,38): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,38): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,38): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,38): warning C4244:             T=float
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(11,38): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,79): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,79): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,79): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,79): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,79): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,49): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,49): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,49): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,49): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(181,49): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(280,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(294,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(303,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(305,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(316,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(325,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(327,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(343,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(345,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(361,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(363,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(380,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(382,21): warning C4018: '<': no coinciden signed/unsigned
+  Hero.cpp
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,80): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,80): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,80): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,80): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,80): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,48): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,48): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,48): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,48): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Hero.cpp(25,48): warning C4244:         ]
+  Motor.cpp
+  Rocket.cpp
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,73): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,73): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,73): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,73): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,73): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,46): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,46): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,46): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,46): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Rocket.cpp(22,46): warning C4244:         ]
+  ScoreManager.cpp
+  Talp.cpp
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,73): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,73): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,73): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,73): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,73): warning C4244:         ]
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,46): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,46): warning C4244:         with
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,46): warning C4244:         [
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,46): warning C4244:             T=unsigned int
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Talp.cpp(20,46): warning C4244:         ]
+  Generando código...
+C:\Users\PC\Documents\CPP\Motor_v4\Motor\Engine.cpp(618,1): warning C4715: 'Engine::seleccioJugadors': no todas las rutas de acceso de control devuelven un valor
+  Motor.vcxproj -> C:\Users\PC\Documents\CPP\Motor_v4\Debug\Motor.exe

@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\colelaSALLE\\PROGR\\mascota\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|D:\\colelaSALLE\\PROGR\\mascota\\mascota\\mascota.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|solutionrelative:mascota\\mascota.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Critter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|solutionrelative:mascota\\Critter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Farm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|solutionrelative:mascota\\Farm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Farm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|solutionrelative:mascota\\Farm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Critter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{983EECC8-17C7-49C0-81E9-67B844B46815}|mascota\\mascota.vcxproj|solutionrelative:mascota\\Critter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Farm.cpp",
+              "DocumentMoniker": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Farm.cpp",
+              "RelativeDocumentMoniker": "mascota\\Farm.cpp",
+              "ToolTip": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Farm.cpp",
+              "RelativeToolTip": "mascota\\Farm.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-21T10:32:06.005Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Farm.h",
+              "DocumentMoniker": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Farm.h",
+              "RelativeDocumentMoniker": "mascota\\Farm.h",
+              "ToolTip": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Farm.h",
+              "RelativeToolTip": "mascota\\Farm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-21T10:31:44.629Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Critter.h",
+              "DocumentMoniker": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Critter.h",
+              "RelativeDocumentMoniker": "mascota\\Critter.h",
+              "ToolTip": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Critter.h",
+              "RelativeToolTip": "mascota\\Critter.h",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T10:46:31.002Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Critter.cpp",
+              "DocumentMoniker": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Critter.cpp",
+              "RelativeDocumentMoniker": "mascota\\Critter.cpp",
+              "ToolTip": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\Critter.cpp",
+              "RelativeToolTip": "mascota\\Critter.cpp",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T10:46:36.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mascota.cpp",
+              "DocumentMoniker": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\mascota.cpp",
+              "RelativeDocumentMoniker": "mascota\\mascota.cpp",
+              "ToolTip": "D:\\colelaSALLE\\PROGR\\mascota\\mascota\\mascota.cpp",
+              "RelativeToolTip": "mascota\\mascota.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T10:42:05.029Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

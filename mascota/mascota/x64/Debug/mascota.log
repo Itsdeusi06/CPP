@@ -1,0 +1,6 @@
+﻿  Critter.cpp
+  Farm.cpp
+D:\colelaSALLE\PROGR\mascota\mascota\Farm.cpp(147,27): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  mascota.cpp
+  Generando código...
+  mascota.vcxproj -> D:\colelaSALLE\PROGR\mascota\x64\Debug\mascota.exe

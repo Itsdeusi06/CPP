@@ -1,0 +1,14 @@
+﻿  Engine.cpp
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,50): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,50): warning C4244:         with
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,50): warning C4244:         [
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,50): warning C4244:             T=float
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,50): warning C4244:         ]
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,38): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,38): warning C4244:         with
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,38): warning C4244:         [
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,38): warning C4244:             T=float
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(10,38): warning C4244:         ]
+E:\AluCiclesGS1\Pau\PROGR\Motor\Motor\Engine.cpp(148,2): error C2065: 'enemies': identificador no declarado
+  Motor.cpp
+  Generando código...
