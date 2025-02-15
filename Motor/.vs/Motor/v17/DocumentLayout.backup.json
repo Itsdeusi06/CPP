@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\CPP\\Motor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\ScoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\ScoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\ScoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Rocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Rocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Rocket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Rocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Rocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Rocket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Talp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Talp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Talp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\ScoreManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\ScoreManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\ScoreManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Talp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Talp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{71E44627-284A-499B-BC54-2D67DF10E64C}|Motor\\Motor.vcxproj|solutionrelative:Motor\\Talp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -64,9 +64,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Rocket.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Rocket.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Rocket.cpp",
               "RelativeDocumentMoniker": "Motor\\Rocket.cpp",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Rocket.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Rocket.cpp",
               "RelativeToolTip": "Motor\\Rocket.cpp",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwCUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -76,11 +76,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Engine.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Engine.cpp",
               "RelativeDocumentMoniker": "Motor\\Engine.cpp",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Engine.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Engine.cpp",
               "RelativeToolTip": "Motor\\Engine.cpp",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAcwMMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAcwMAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-30T10:26:02.086Z",
               "EditorCaption": ""
@@ -89,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Engine.h",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Engine.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Engine.h",
               "RelativeDocumentMoniker": "Motor\\Engine.h",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Engine.h",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Engine.h",
               "RelativeToolTip": "Motor\\Engine.h",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAFYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -101,9 +101,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Rocket.h",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Rocket.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Rocket.h",
               "RelativeDocumentMoniker": "Motor\\Rocket.h",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Rocket.h",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Rocket.h",
               "RelativeToolTip": "Motor\\Rocket.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -113,9 +113,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Talp.h",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Talp.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Talp.h",
               "RelativeDocumentMoniker": "Motor\\Talp.h",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Talp.h",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Talp.h",
               "RelativeToolTip": "Motor\\Talp.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -125,9 +125,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Hero.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Hero.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Hero.cpp",
               "RelativeDocumentMoniker": "Motor\\Hero.cpp",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Hero.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Hero.cpp",
               "RelativeToolTip": "Motor\\Hero.cpp",
               "ViewState": "AgIAABYAAAAAAAAAAAAiwCgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -137,9 +137,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Hero.h",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Hero.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Hero.h",
               "RelativeDocumentMoniker": "Motor\\Hero.h",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Hero.h",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Hero.h",
               "RelativeToolTip": "Motor\\Hero.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -149,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Talp.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Talp.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Talp.cpp",
               "RelativeDocumentMoniker": "Motor\\Talp.cpp",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Talp.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Talp.cpp",
               "RelativeToolTip": "Motor\\Talp.cpp",
               "ViewState": "AgIAABEAAAAAAAAAAAAiwCMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -161,9 +161,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ScoreManager.h",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\ScoreManager.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\ScoreManager.h",
               "RelativeDocumentMoniker": "Motor\\ScoreManager.h",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\ScoreManager.h",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\ScoreManager.h",
               "RelativeToolTip": "Motor\\ScoreManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -173,22 +173,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ScoreManager.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\ScoreManager.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\ScoreManager.cpp",
               "RelativeDocumentMoniker": "Motor\\ScoreManager.cpp",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\ScoreManager.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\ScoreManager.cpp",
               "RelativeToolTip": "Motor\\ScoreManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T20:55:37.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:55:37.062Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Enemy.cpp",
               "RelativeDocumentMoniker": "Motor\\Enemy.cpp",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Enemy.cpp",
               "RelativeToolTip": "Motor\\Enemy.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -198,9 +197,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Enemy.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Enemy.h",
               "RelativeDocumentMoniker": "Motor\\Enemy.h",
-              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor_v4\\Motor\\Enemy.h",
+              "ToolTip": "C:\\Users\\PC\\Documents\\CPP\\Motor\\Motor\\Enemy.h",
               "RelativeToolTip": "Motor\\Enemy.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
